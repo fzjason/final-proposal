@@ -4,15 +4,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Wine Data Visualization</title>
+    <title>Wine Data Visualization Final Proposal II</title>
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/jumbotron.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/blog.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   </head>
 
 	<center>
 		<h1>All You Need To Know About Wine</h1>
-		<h3>Author: Hanlin Chen, hchen47@ucsc.edu</h3>
+		<h3>Hanlin Chen, hchen47@ucsc.edu</h3>
+		<h3>Andrew Johnson, anryjohn@ucsc.edu</h3>
+		<h3>Kevin Tran, kehutran@ucsc.edu</h3>
+		<h3>Zihua Huang, zhuang27@ucsc.edu</h3>
 		<a href = "https://github.com/fzjason/final-proposal">https://github.com/fzjason/final-proposal</a>
 
 	</center>
@@ -22,18 +26,100 @@
 		<div class="jumbotron">
 		    <div class="container">
 		     	<h1 class="display-3">Description</h1>
-		        <p>This is a visualization that covers the more common wine, testified by wine tasting expert groups. Vertical scale will be the price of the wine, the top side means more expensive. The Horizontal scale will be the taste of the wine, the right side means better tasting experience. By hover over, tooltip will be used to display the name of the wine, place of origin, and a short description. </p>
-		        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
+		        <p>This is a visualization that reaches over a wide variety of common wine, quantified them based on their price and quality (quality is decided professional wine tasters). The purpose of the project is to acculumulate information about many popular wine into one accessible website. The website will make it very easy for readers to come in and find a cheap and tasty wine while learning something about that wine. 
+		        <br>	
+		        Since wine is very popular among all ethicities and all age groups, this will appeal to a lot of people who wants to try wine but just don't know what to get, also great for people who are trying to explore new options. This website will not be a one time use website, users who are satisfied with the wine they found will definitely return. </p>
 		    </div>
 		</div>
+
+		      <div class="container">
+		        <!-- Example row of columns -->
+		        <div class="row">
+		          <div class="col-md-4">
+		            <h2>Relevant Data</h2>
+		            <a href="https://www.kaggle.com/zynicide/wine-reviews/data/"> Data Site #1, data related to taste, description, origin
+		            </a>
+		            <br>
+		            <a href="https://253qv1sx4ey389p9wtpp9sj0-wpengine.netdna-ssl.com/wp-content/uploads/2018/01/Vintage_Chart_forWeb_2018.pdf"> Data Site #2, Amazing data display. The date of wine production dictates the taste significantly, this data contains rating based on the year. 
+		            </a>
+		            <br>
+		            <a href="https://www.kaggle.com/c/pred-411-2017-01-u3-wine/data/"> Data Site #3, data related to sales, popularity. 
+		            </a>
+		            <br>
+		            <a href="https://www.thewinecellarinsider.com/wine-topics/wine-educational-questions/davis-aroma-wheel/">Data Site #4: List of a few popular wine type and its aroma/taste(white wine)</a>
+		            <br>
+		            <a href="https://www.thewinecellarinsider.com/wine-topics/wine-educational-questions/davis-aroma-wheel/">Data Site #5: List of a few popular wine type and its aroma/taste(red wine)</a>
+		            <br>
+		            <a href="https://winefolly.com/tutorial/the-lightest-to-the-strongest-wine/">Data Site #6: List of a few popular wine type and their alchohol content</a>
+
+		          </div>
+		          <div class="col-md-4">
+		            <h2>Idea</h2>
+		            <p> Have a Y and X scale. On the X Scale, we have the taste rating done by expert, on the Y scale, we have the price range. Each "point" will be represented by a wine bottle. Hovering over the bottle will display other information like name, flavor, place of origin. Other features include searching by wine type(Rose, Moscato, Chardonnay), and searching by price</p>
+		          </div>
+		          <div class="col-md-4">
+
+		            <h2>Relevant Visualization</h2>
+		            Our site will mostly resemble this visualization. Price and points on each axis. The price filter is also a very good feature.
+		            <a href="http://pbpython.com/wine_visualization.html"> Viz Site #1
+		            </a>
+		            <br>
+		            I really like the way they used picture to describe the taste of the wine. The price and rating filter and search bar very useful. 
+		            <a href="https://projectvisualizewine.wordpress.com/"> Viz Site #2
+		            </a>
+		            <br>
+		            Sunburst: We are going to create a visualization similar to this one. The users are allowed to choose their favorite aroma and taste to find their ideal wine.    
+		            <a href="https://www.thewinecellarinsider.com/wine-topics/wine-educational-questions/davis-aroma-wheel/"> Viz Site #3
+		            </a>
+		           	<br>
+		          </div>
+		        </div>
+
 		<hr> 
-		<center><P>
-		only one data source is used for the time being, the site has data for 100 different wine. Any more data would cause cluttering. 
 		<br>
-		<a href="https://www.kaggle.com/zynicide/wine-reviews/data/"> Data Site #1
-		</a>
-		</center>
-		<br>
+	<h3>Why(Title and Purpose)</h3>
+		A Wine-Lover’s Guide to Wine: Quality Wines to Match Your Budget
+		This data visualization is designed to serve as an easy-to-use and interactive wine guide for amateur and professional wine-lovers alike. Users can learn about and identify wines simply by interacting with the site, as well as discover quality wines at various different price points. This can serve as a wine study guide by professionals, and an introductory course in wine for beginning wine tasters
+	<h3>Dataset Variables</h3>
+	<ol> 
+		<li><a href="https://www.kaggle.com/zynicide/wine-reviews/data/">Market Price</a></li>
+		<li><a href="https://www.kaggle.com/zynicide/wine-reviews/data/">Expert Rating Out of 100</a></li>
+		<li><a href="https://www.kaggle.com/zynicide/wine-reviews/data/">Variety(Chardonnay, Rose, etc.)</a></li>
+		<li><a href="https://www.thewinecellarinsider.com/wine-topics/wine-educational-questions/davis-aroma-wheel/">Taste Description(sweet, herbal)</a></li>
+		<li><a href="https://winefolly.com/tutorial/the-lightest-to-the-strongest-wine/">Alchohol Content.</a></li>
+		<li><a href="https://www.kaggle.com/zynicide/wine-reviews/data/">Country/Region of Origin</a></li>
+		<li><a href="https://www.kaggle.com/zynicide/wine-reviews/data/">Designation</a></li>
+		<li><a href="https://253qv1sx4ey389p9wtpp9sj0-wpengine.netdna-ssl.com/wp-content/uploads/2018/01/Vintage_Chart_forWeb_2018.pdf">Year By Year Maturity Breakdown</a></li>
+	</ol>
+	<h3>Design and Sketch</h3>
+	<div class="row mb-2">
+	  <div class="col-md-6">
+	    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+	      <div class="card-body d-flex flex-column align-items-start">
+	        <strong class="d-inline-block mb-2 text-primary">Design 1</strong>
+	        <h3 class="mb-0">
+	          <a class="text-dark" href="https://i.imgur.com/Y4kyZ9A.jpg">Quality vs Year Produced Plot Chart</a>
+	        </h3>
+	        <p class="card-text mb-auto">Scatterplot chart for taste rating by experts vs year produced. Tooltip includes important information like pictures, taste description, variety, and orgin. There will also be a filter by wine type function. The dots will be color-coded based on the type of the wine. Clutter issues will be solved by the zooming function.</p>
+	      </div>
+	      <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" style="width: 450px; height: 350px;" src="https://i.imgur.com/Y4kyZ9A.jpg"  data-rotate="90" data-holder-rendered="true">
+	    </div>
+	  </div>
+	  <div class="col-md-6">
+	    <div class="card flex-md-row mb-4 box-shadow h-md-250">
+	      <div class="card-body d-flex flex-column align-items-start">
+	        <strong class="d-inline-block mb-2 text-success">Design 2</strong>
+	        <h3 class="mb-0">
+	          <a class="text-dark" href ="https://www.thewinecellarinsider.com/wine-topics/wine-educational-questions/davis-aroma-wheel/"class="card-text mb-auto">Wine Taste/Aroma Filtering sunburst</a>
+	        </h3>
+	        <p>We are going to have a user-interactive sunburst chart. The sunburst will contain different type of wines and their taste/aroma. User- click on the sunburst will trigger scatterplot to only display the wine with specific quality(similar to filter function). </p>
+	      </div>
+	      <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" style="width: 450px; height: 350px;" src="https://www.fabienplisson.com/wp-content/uploads/2017/04/sunburst_755x500-1024x585.png" data-holder-rendered="true">
+	    </div>
+	  </div>
+	</div>
+
+
 	</body>
 
 
